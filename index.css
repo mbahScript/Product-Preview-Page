@@ -5,7 +5,9 @@
 
 body {
   background-color: #f2ebe3;
-  font-family: Montserrat;
+  font-family: poppins;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 body .mobile {
@@ -22,7 +24,7 @@ body .main {
   margin-right: auto;
   margin-top: 5px;
   width: 500px;
-  height: 850px;
+  height: 870px;
 }
 
 body .main p:first-child {
@@ -81,7 +83,7 @@ body .main .button:hover {
 body .main .icon {
   position: relative;
   left: -120px;
-  bottom: -59px;
+  bottom: -65px;
 }
 
 @media screen and (min-width: 375px) {
@@ -93,7 +95,7 @@ body .main .icon {
   }
 }
 
-@media screen and (min-width: 375px) and (min-width: 1440px) {
+@media screen and (min-width: 375px) and (min-width: 800px) {
   .main {
     display: none;
   }
@@ -116,6 +118,7 @@ body .main .icon {
   }
   .desktop .container {
     padding-top: 55px;
+    margin-right: 10px;
   }
   .desktop .container p:first-child {
     opacity: 0.7;
@@ -162,7 +165,7 @@ body .main .icon {
   .desktop .container .icon {
     position: relative;
     left: -185px;
-    bottom: -94px;
+    bottom: -100px;
   }
 }
 /*# sourceMappingURL=index.css.map */
